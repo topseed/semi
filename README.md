@@ -1,9 +1,9 @@
 # semi
-smaller semantic 
+smaller semantic
 
 http://github.com/doabit/semantic-ui-sass
 
-you need only 
+you need only
 http://github.com/doabit/semantic-ui-sass/tree/master/app/assets/stylesheets
 
 and work with prepros.io as normal.
@@ -28,3 +28,7 @@ loadjs.ready(['style'], function () { //load large css
 		async: false //required due to loadjs bug with bundles
 	})
 })
+
+
+separate:
+- http://ionicons.com/usage
