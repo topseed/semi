@@ -10,12 +10,14 @@ and work with prepros.io as normal.
 
 edit font, etc.
 
-On page where you need:
+load smalles css semnatic 1.
+Ideally semnatic 1 loads after pg images
+and then after all, load semantic 2
+
+
+On page where you need js or 'rare':
 http://jsdelivr.com/package/npm/semantic-ui?path=dist%2Fcomponents
 
-
-load smalles css semnatic 1
-and then after load semantic 2
 
 ex:
 
@@ -30,5 +32,5 @@ loadjs.ready(['style'], function () { //load large css
 })
 
 
-separate:
+separate, icons used by setup:
 - http://ionicons.com/usage
