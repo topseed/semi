@@ -1,23 +1,19 @@
-# semi
-smaller semantic
+# smaller semantic-iu
 
-http://github.com/doabit/semantic-ui-sass
-
-you need only
+Start with
 http://github.com/doabit/semantic-ui-sass/tree/master/app/assets/stylesheets
 
 and work with prepros.io as normal.
 
-edit font, etc.
+edit font, disable, etc.
 
-load smalles css semnatic 1.
+Load smalles css, semnatic 1, like layout.
 Ideally semnatic 1 loads after pg images
 and then after all, load semantic 2
 
 
-On page where you need js or 'rare':
+Where you need more or js:
 http://jsdelivr.com/package/npm/semantic-ui?path=dist%2Fcomponents
-
 
 ex:
 
@@ -32,5 +28,12 @@ loadjs.ready(['style'], function () { //load large css
 })
 
 
-separate, icons used by setup:
+Separate, icons used by setup js:
 - http://ionicons.com/usage
+
+Or you can load
+http://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/components/icon.css
+
+(Same w/ flags)
+
+In general, a good way to handle SemnaticUI.
